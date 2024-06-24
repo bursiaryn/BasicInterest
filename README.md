@@ -81,4 +81,6 @@ example : `non_level_continuous_annuity(c(100, 200, 300), 0.05)`
 cash_flows: A vector of cash flows.
 times: A vector of times at which the cash flows occur.
 rate: The interest rate per period.
+
+```r
 example : `equation_of_value(c(1000, 2000, 3000), c(1, 2, 3), 0.05)`
