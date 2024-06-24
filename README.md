@@ -13,15 +13,6 @@ The `BasicInterest` package includes functions to:
 - Solve the equation of value for given cash flows and times.
 
 By providing these functions, the package helps users perform critical financial and actuarial calculations easily and accurately.
-
-## Installation
-
-You can install the `BasicInterest` package directly from GitHub using the `devtools` package:
-
-```r
-# Install devtools if you haven't already
-install.packages("devtools")
-```r
 ## Usage
 `library(InterestTheory)`
 
@@ -83,4 +74,13 @@ example : `equation_of_value(c(1000, 2000, 3000), c(1, 2, 3), 0.05)`
 
 # Install InterestTheory from GitHub
 devtools::install_github("bursiaryn/BasicInterest")
+
+## Installation
+
+You can install the `BasicInterest` package directly from GitHub using the `devtools` package:
+
+```r
+# Install devtools if you haven't already
+install.packages("devtools")
+```r
 
